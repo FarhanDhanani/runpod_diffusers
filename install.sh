@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the workspace directory
-cd workspace/ || { echo "Failed to cd into workspace"; exit 1; }
+cd /workspace/ || { echo "Failed to cd into workspace"; exit 1; }
 
 # Create a new directory for training
 mkdir -p training
