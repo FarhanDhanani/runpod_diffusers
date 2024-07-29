@@ -1,0 +1,14 @@
+{
+    "prompts": 
+        [
+            {
+                "product_id": 1,
+                "prompt" : "A photo of a red sandal in desert"
+            },
+            {
+                "product_id": 2,
+                "prompt" : "A photo of a gold watch on a oak desk"
+            }
+        ]
+    
+}
