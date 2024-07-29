@@ -12,9 +12,8 @@ python -m venv venv || { echo "Failed to create virtual environment"; exit
 1; }
 
 # Modify the venv configuration file to include system site packages
-sed -i 's/^include-system-site-packages = 
-false$/include-system-site-packages = true/' venv/pyvenv.cfg || { echo 
-"Failed to modify venv configuration"; exit 1; }
+sed -i 's/^include-system-site-packages = false$/include-system-site-packages = true/' venv/pyvenv.cfg || { echo "Failed to modify venv configuration"; exit 1; }
+
 
 # Activate the virtual environment
 source venv/bin/activate || { echo "Failed to activate virtual 
