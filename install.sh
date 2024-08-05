@@ -28,7 +28,7 @@ sed -i 's/^include-system-site-packages = false$/include-system-site-packages = 
 source venv/bin/activate || { echo "Failed to activate virtual environment"; exit 1; }
 
 # Install required Python packages
-pip install torch==2.1.0+cu118 xformers accelerate diffusers transformers comet_ml peft bitsandbytes gdown || { echo "Failed to install Python packages"; exit 1; }
+pip install accelerate diffusers transformers comet_ml peft bitsandbytes gdown || { echo "Failed to install Python packages"; exit 1; }
 pip install matplotlib tensorflow tensorflow_datasets scipy || { echo "Failed to install additional Python packages"; exit 1; }
 
 # Download files from Google Drive
